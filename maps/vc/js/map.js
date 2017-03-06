@@ -20,7 +20,7 @@
 					return null;
 				}
 			var bound = Math.pow(2, zoom);
-				return "https://dl.dropboxusercontent.com/u/69995561/maps/vc/tiles_jpg/" + zoom + "_" + normalizedCoord.x + "_" + normalizedCoord.y + ".jpg";
+				return "../tiles_jpg/" + zoom + "_" + normalizedCoord.x + "_" + normalizedCoord.y + ".jpg";
 		},
 	tileSize: new google.maps.Size(256, 256),
 	maxZoom: 5,
